@@ -226,6 +226,16 @@ body {
   margin-bottom: 10px;
 }
 
+.heart {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .heart {
+    display: block;
+  }
+}
+
 .footer {
   background-color: #595852;
 }
@@ -247,6 +257,16 @@ body {
 
 .client-logo-cursive {
   font-family: 'Cedarville Cursive', cursive;
+}
+
+.client-hide-xs {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .client-hide-xs {
+    display: block;
+  }
 }
 
 .footer-lower {

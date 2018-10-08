@@ -12,65 +12,95 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12 top-nav">
-                <ul>
-                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                </ul>
+    <div class="top-head top-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="row header">
-            <div class="col-xs-12 col-sm-2">
-                <h1>Restaurant</h1>
-            </div>
-            <div class="col-xs-12 col-sm-10">
-                <select name="nav" class="hide-when-big">
-                    <option value="about">ABOUT</option>
-                    <option value="events">EVENTS</option>
-                    <option value="menu">MENU</option>
-                    <option value="gallery">GALLERY</option>
-                    <option value="contacts">CONTACTS</option>
-                    <option value="blog">BLOG</option>
-                </select>
-                <ul class="nav-expanded">
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">EVENTS</a></li>
-                    <li><a href="#">MENU</a></li>
-                    <li><a href="#">GALLERY</a></li>
-                    <li><a href="#">CONTACTS</a></li>
-                    <li><a href="#">BLOG</a></li>
-                </ul>
+    </div>
+    <div class="head-bottom">
+        <div class="container">
+            <div class="row header">
+                <div class="col-xs-12 col-sm-2">
+                    <h1>Restaurant</h1>
+                </div>
+                <div class="col-xs-12 col-sm-10">
+                    <select name="nav" class="hide-when-big">
+                        <option value="about">ABOUT</option>
+                        <option value="events">EVENTS</option>
+                        <option value="menu">MENU</option>
+                        <option value="gallery">GALLERY</option>
+                        <option value="contacts">CONTACTS</option>
+                        <option value="blog">BLOG</option>
+                    </select>
+                    <ul class="nav-expanded">
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">EVENTS</a></li>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">CONTACTS</a></li>
+                        <li><a href="#">BLOG</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="row search-row">
-            <div class="col-xs-12 col-sm-4">
-                <h2>Top quality ingredients only in our kitchen!</h2>
-            </div>
-            <div class="col-xs-12 col-sm-8">
-                <div class="form-wrapper">
-                    <form action="#">
-                        <input type="text">
-                        <button><i class="fas fa-search"></i></button>
-                    </form>
+    </div>
+    <div class="search-row">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <h2>Top quality ingredients only in our kitchen!</h2>
+                </div>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="form-wrapper">
+                        <form action="#">
+                            <input type="text">
+                            <button><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="hero-outer">
-        <div class="hero-inner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <img src="img/hero1.jpg" alt="" class="img-responsive">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 hero-arrows">
+                    <div class="hero-inner">
+                        <div class="hero-1">
+                            <img src="img/hero1.jpg" alt="hero1" class="img-responsive">
+                            <div class="hero-content-head">
+                                <h2>SALAD</h2>
+                                <h3>OF THE DAY</h3>
+                            </div>
+                            <div class="hero-content">
+                                <h3>What is inside?</h3>
+                                <p>Two pure beef patties hand-leafed lettuce, tomato, spread with or without onions, stacked high on a freshly baned bun...</p>
+                            </div>
+                        </div>
+
+                        <img src="img/hero2.jpg" alt="hero2" class="img-responsive">
+                    </div>
+                    <div class="arrows">
+                        <button class="prev"><i class="fas fa-angle-left"></i></button> 
+                        <button class="next"><i class="fas fa-angle-right"></i></button> 
                     </div>
                 </div>
             </div>
@@ -145,21 +175,21 @@
                     <span>OFFER ONE</span>
                     <h4>Quis autem vel</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident eaque sapiente eum non reprehenderit quod sed quae consequuntur dolore voluptates, iste blanditiis alias maxime iure animi, obcaecati id est voluptatem?</p>
-                    <a href="#">>>Click here</a>
+                    <a href="#"><i class="fas fa-angle-double-right"></i>Click here</a>
                 </div>
                 <div class="col-xs-6 col-sm-4">
                     <h3><i class="fas fa-coffee"></i></h3>
                     <span>OFFER ONE</span>
                     <h4>Quis autem vel</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident eaque sapiente eum non reprehenderit quod sed quae consequuntur dolore voluptates, iste blanditiis alias maxime iure animi, obcaecati id est voluptatem?</p>
-                    <a href="#">>>Click here</a>
+                    <a href="#"><i class="fas fa-angle-double-right"></i>Click here</a>
                 </div>
                 <div class="col-sm-4 heart">
                     <h3><i class="fas fa-heart"></i></h3>
                     <span>OFFER ONE</span>
                     <h4>Quis autem vel</h4>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident eaque sapiente eum non reprehenderit quod sed quae consequuntur dolore voluptates, iste blanditiis alias maxime iure animi, obcaecati id est voluptatem?</p>
-                    <a href="#">>>Click here</a>
+                    <a href="#"><i class="fas fa-angle-double-right"></i>Click here</a>
                 </div>
             </div>
         </div>
@@ -185,13 +215,13 @@
     <div class="footer">
         <div class="container">
             <div class="row footer-lower">
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-sm-6 col-md-3">
                     <h2>ABOUT US</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, magnam?</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur aspernatur iusto ducimus nostrum suscipit nam molestiae explicabo minima culpa illum!</p>
-                    >><a href="#">Read more</a>
+                    <i class="fas fa-angle-double-right"></i><a href="#">Read more</a>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-sm-6 col-md-3">
                     <h2>OUR BLOG</h2>
                     <span>Fusce feugiat malesuada odio</span>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, neque?</p>
@@ -199,17 +229,17 @@
                     <span>Fusce feugiat malesuda odio</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint.</p>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-sm-6 col-md-3">
                     <h2>OUR FLICKR</h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 footer-paragraph">
                     <h2>Get IN TOUCH</h2>
         
-                    <span>8901 Marmora Road</span>
-                    <span>Glasgow, DO4 89GR</span>
-                    <span>FFreephone +1 800 559 6580</span>
-                    <span>Telephone +1 959 603 6035</span>
-                    <span>FAX +1 504 899 9898</span>
-        
-                    <a href="#" class="email">E-mail mail@demolink.org</a>
+                    <p class="footer-first">8901 Marmora Road</p>
+                    <p>Glasgow, DO4 89GR</p>
+                    <p>FFreephone +1 800 559 6580</p>
+                    <p>Telephone +1 959 603 6035</p>
+                    <p>FAX +1 504 899 9898</p>
                 </div>
             </div>
         </div>
@@ -224,5 +254,14 @@
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function(){
+            $('.hero-inner').slick({
+                arrows: true,
+                nextArrow:$('.next'),
+                prevArrow:$('.prev'),
+            });
+        });
+    </script>
 </body>
 </html>
